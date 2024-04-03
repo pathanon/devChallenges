@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+body{
+    font-family: "Sora", sans-serif;
+}
+.flex-container{
+    background-color: #FAFAF9;
+    /* width: 1280px;*/
+    height: 768px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.blogcard{
+    margin: 10px 20px 10px;
+    width: 368px;
+    height: 368px;
+    border-radius: 20px;
+    background-color: #ffff;
+    box-shadow:  35px 35px 70px #bebebe,
+                -35px -35px 70px #ffffff;
+    border: 1px solid red;
+}
+.contentin{
+    margin: 0px 16px 20px;
+    color: #6C727F;
+    background-color: #ffff;
+    font-size: 14px;
+}
+.contentname{
+    margin: 0px 16px 20px;
+    padding: 20px 0px 0px;
+    text-align: left;
+    color: #6C727F;
+    background-color: #ffff;
+    font-size: 14px;
+    border-top: #E5EAF0;
+
+}
+.typetag{
+    text-align: center;
+    font-size: 10px;
+    padding: 6px 6px;
+    margin: 6px 16px;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    border-radius: 60px;
+    width: 66px;
+    height: 12px;
+}
+.headtag{
+    margin: 0px 16px 6px;
+    color: #20293A;
+    background-color: #ffff;
+    font-size: 18px;
+    
+}
+.imagetag{
+    margin: 16px 16px 0px 16px;
+    border-radius: 10px;
+    max-width: 336px;
+    max-height: 152px;
+}
