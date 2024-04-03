@@ -11,7 +11,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .blogcard{
@@ -22,7 +22,7 @@ body{
     background-color: #ffff;
     box-shadow:  35px 35px 70px #bebebe,
                 -35px -35px 70px #ffffff;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .contentin{
     margin: 0px 16px 20px;
